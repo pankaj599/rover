@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>
+        Mechanical Subsystem
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="mechanical.css">
+    </head>
+    <body>
+        <!----------------------------------------->
+        <!--navbar-->
+        <a name="top"></a>
+        <nav class="navbar navbar-expand-sm navbar-light "style="background-color:	rgb(220,220,220);">
+            <a href ="#" class="navbar-brand">
+                    <img src="images/svnit_1.jpg"
+                    style="padding-left:20px"
+                    align="left"
+                    height="70"
+                    width="200"> 
+                </a>
+                </a>
+                <ul class="navbar-nav ml-auto">
+                    <!-------------------------------------------------------------------------------->
+                    <!--DROPDOWN-->
+                    <li class="nav-item"style="font-weight: bold;"><a href="file:///C:/Users/Lenovo/Desktop/rover_site/WEBSITE/index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown"style="font-weight: bold;">
+                            <a href="#" class="nav-link dropdown-toogle" 
+                            data-toggle="dropdown">Subsystem</a>
+                            <div class="dropdown-menu"style="background-color:	rgb(220,220,220);">
+                                <a href="file:///C:/Users/Lenovo/Desktop/rover_site/WEBSITE/electronics.html" class="dropdown-item">
+                                    ELECTRONICS AND SOFTWARE
+                                </a>
+                                <a href="file:///C:/Users/Lenovo/Desktop/rover_site/WEBSITE/mechanical.html" class="dropdown-item">
+                                    MECHANICAL SUBSYSTEM
+                                    </a>
+                                    <a href="file:///C:/Users/Lenovo/Desktop/rover_site/WEBSITE/bioscience.html" class="dropdown-item">
+                                            BIOSCIENCE
+                                    </a>
+                            </div>
+                        </li>
+                   <!-- <li class="nav-item"style="font-weight: bold;"><a href="file:///C:/Users/Lenovo/Desktop/rover_site/WEBSITE/team.html" class="nav-link">Team</a></li>-->
+                    <!-------------------------------------------------------------------------------->
+                    <!--DROPDOWN-->
+                        <li class="nav-item dropdown"style="font-weight: bold;">
+                            <a href="file:///C:/Users/Lenovo/Desktop/rover_site/WEBSITE/gallery.html" class="nav-link">Gallery</a> 
+                            
+                        </li> 
+                        <li class="nav-item"style="font-weight: bold;"><a href="https://docs.google.com/document/d/1h-xd_8QDOgz58PQw7iZVhm_-3nVZVRTl69o0Dmo1EVg/edit" class="nav-link">Documentation</a></li>
+                    <li class="nav-item"style="font-weight: bold;"><a href="file:///C:/Users/Lenovo/Desktop/rover_site/WEBSITE/index.html#" class="nav-link">Contact</a></li>
+                </ul>
+        </nav>
+
+        <!------------------------------------------------------------->
+        <!--CONTENT-->
+        <div style="background-image: url(background3.jpg);  background-size: cover;">
+        <div class="con">
+            <p style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 40px; font-weight: bold;">
+                MECHANICAL SUBSYSTEM
+            </p>
+            <br><br>
+            <div class="row">
+                <div class="col-2" style="text-align: center;">
+                    <img src="images/chassis.jpg">
+                    <br>
+                   <a href="#chassis"><h6 style="padding-top: 10px;">CHASSIS</h6></a> 
+                </div>
+                <div class="col-2" style="text-align: center;">
+                    <img src="images/manipulator.jpg">
+                    <br>
+                   <a href="#manipulator"><h6 style="padding-top: 10px;">MANIPULATOR</h6></a> 
+                </div>
+                <div class="col-2" style="text-align: center;">
+                    <img src="images/wheel.jpg">
+                    <br>
+                   <a href="#wheel"><h6 style="padding-top: 10px;">WHEEL</h6></a> 
+                </div>
+                <div class="col-2" style="text-align: center;">
+                    <img src="images/suspension.jpg">
+                    <br>
+                   <a href="#suspension"><h6 style="padding-top: 10px;">SUSPENSION</h6></a> 
+                </div>
+                <div class="col-2" style="text-align: center;">
+                    <img src="images/endeffector.jpg">
+                    <br>
+                   <a href="#endeffector"><h6 style="padding-top: 10px;">END-EFFECTOR</h6></a> 
+                </div>
+                
+                <!------------------------------------------------------------------------------------------------------------>
+            </div>
+            <div class="row">
+                <div class="col-8"style="padding-top: 50px;" id="#chassis">
+                    <h3 style="text-align: center;">
+                        CHASSIS
+                    </h3>
+                    <ul style="padding-top: 20px;text-align: justify;font-size: 18px;">
+                        <li>The chassis frame is made of aluminium box section profiles, brazed together to form a lightweight and robust frame. </li>
+                        <li>The placement of all the components is done with the goal to achieve a low centre of gravity, towards the geometric centre of the rover. </li>
+                        <li>The load is evenly distributed throughout the structure, and the maximum intensity calculated is well under the yield strength of the aluminium profiles used.</li>
+                            
+                    </ul>
+                </div>
+                <div class="col-4"style="padding-top: 50px;">
+                    <img class="img-fluid" src="solar/chassis.jpg" alt="chassis"style="float: right; padding-right: 30px;padding-top: 60px;">
+                </div>
+                <!-------------------------------------------------------->
+                <!--MANIPULATOR-->
+                
+                <div class="col-4" style="padding-top: 100px;">
+                    <img class="img-fluid" src="solar/manipulator.jpg" alt="manipulator" style="float: left; padding-left: 30px;padding-top: 60px;">
+                </div>
+                <div class="col-8" style="padding-top: 100px;" id="manipulator">
+                    <h3 style="text-align: center;">
+                        MANIPULATOR
+                    </h3>
+                    <ul style="padding-top: 20px;text-align: justify;font-size: 18px;">
+                        <li>A Modified version of a SCARA Robotic arm design with 6 degree of freedom and a 3-D printed parallel gripper end effector has been implemented, which has a linear axis in place of the primary revolute axis. 
+                            The linear axis makes the operation of the end effector easier.</li>
+                            <li> It consists of 2 prismatic joints and 2 revolute joints, being operated by two lead screws and two worm gear assembly, making the assembly light and powerful.</li>
+                            <li>The gripper has been 3D printed to achieve a lightweight structure capable of withstanding heavy transverse and shearing stresses. In practice, the manipulator is capable of lifting loads up to 5 kgs. </li>
+                    </ul>
+               
+            </div>
+            <!---------------------------------------------------------------->
+            <!--WHEELN-->
+            <div class="col-8"style="padding-top: 100px;" id="wheel">
+                <h3 style="text-align: center;">
+                    WHEEL
+                </h3>
+                <ul style="padding-top: 20px;text-align: justify;font-size: 18px;">
+                    <li>Customized wheels are manufactured to provide traction and support the six-wheeled differential drive. </li>
+                    <li>Larger diameter wheels are designed to increase the ground clearance. </li>
+                   <li>The wheel is mounted on the aluminium cylinder (which is further fixed to the rockers) with the help of bearings which provided effective rotation of wheels.</li>
+                    <li> For increasing the diameter of the wheel, aluminium box section is used. Now to generate the circular profile composite material is used. 
+                        This composite sheets is further modified to facilitate turning using differential drive.</li>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4"style="padding-top: 100px;">
+                <img class="img-fluid" src="solar/wheel.jpg" style="float: right; padding-right: 30px;padding-top: 60px;">
+            </div>
+            <!----------------------------------------------------->
+            <!--suspension-->
+            <div class="col-4" style="padding-top: 100px;">
+                <img class="img-fluid" src="solar/suspension.jpg" alt="suspension"style="float: left; padding-left: 30px;padding-top:70px;">
+            </div>
+            <div class="col-8" style="padding-top: 100px;" id="suspension">
+                <h3 style="text-align: center;">
+                    SUSPENSION
+                </h3>
+                <ul style="padding-top: 20px;text-align: justify;">
+                    <li>The Rover is configured to a six wheeled triple-rocker system with two front rockers and a rear rocker.</li>
+                    <li> All the rockers are independent from each other and are hinged to the main frame, thereby rotating when faced with an obstacle. The rear rocker substitutes for the differential stability provided by a traditional bevel gear or pivoting mechanism.</li>
+                    <li> This provides stability to the chassis, maintaining its pitch angle, which ensures optimal performance of the onboard electronics and, the camera feeds.</li>
+                    <li>Maximum ground contact is achieved due to unconstrained rotation of the rockers, thereby enhancing obstacle climbing capabilities and reducing the probability of the chassis toppling over. 
+                    This layout is less prone to mechanical failures than the basic rocker bogie system.
+                    </li>
+                </ul>
+           
+        </div>
+        <!-------------------------------------------------->
+        <!--END-EFFECTOR-->
+        <div class="col-8"style="padding-top: 100px;">
+            <h3 style="text-align: center;" id="endeffector">
+                END EFFECTOR
+            </h3>
+            <ul style="padding-top: 20px;text-align: justify;font-size: 18px;">
+                <li>The end effector we have used is a parallel gripper having adaptive fingers. </li>
+                <li>The opening and closing of the gripper is controlled by rotation of a stud having left-hand and right-hand threads for respective fingers. 
+                    When this stud rotates, the whole finger assembly moves due to the corresponding nuts fixed to them.</li>
+                  <li> The gripper has two motions, one being the rotation of the gripper and second being the opening and closing of the fingers.</li>
+            </ul>
+        </div>
+        <div class="col-4"style="padding-top: 100px;">
+            <img class="img-fluid" src="solar/endeffector.jpg" alt="endeffector" style="float: right; padding-top: 10px;padding-right: 50px;">
+        </div>
+            <!-------------------------------------------------->
+           
+
+            </div>
+            <div style="text-align: center;">
+                <a href="#top">
+                    <button type="button" class="btn btn-info btn-lg" style="font-size: 18px; font-weight: bold; ">BACK TO TOP</button></a>
+                    </div>
+        </div>
+    </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -5,8 +5,20 @@
 .con{
     border:2px solid transparent;
     padding-top: 40px;
-     padding-left: 20px;
-     padding-right: 20px;
+     padding-left: 70px;
+     padding-right: 70px;
      padding-bottom: 60px;
  }
- 
+ ul li:hover{
+    background-color:rgb(211,211,211);
+    font-weight: bolder;
+}
+@media (max-width: 600.98px) { 
+    .con{
+        border:2px solid transparent;
+        padding-top: 40px;
+         padding-left: 20px;
+         padding-right: 20px;
+         padding-bottom: 60px;
+     }
+}

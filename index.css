@@ -27,16 +27,16 @@ ul li:hover{
 }
 @media (max-width: 600.98px) { 
     .hello1{
-        height: 250px;
+        height: 200px;
     }
 }
 @media (max-width: 600.98px) { 
     .hello2{
-        height: 250px;
+        height: 200px;
     }
 }
 @media (max-width: 600.98px) { 
     .hello3{
-        height: 250px;
+        height: 200px;
     }
 }

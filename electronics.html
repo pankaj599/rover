@@ -102,7 +102,7 @@
                 <h3 style="text-align: center;">
                     ACTUATION
                 </h3>
-                <ul style="padding-top: 20px;text-align: justify;font-size: 18px;">
+                <ul style="padding-top: 20px;text-align: justify;font-size: 18px; font-weight:500;">
                     <li>All the motors are controlled by Arduino-Mega Microncontroller receiving commands from R-pi serially.</li>
                     <li> The driving motors are controlled by Cytron motor drivers while the manipulator motor
                         is handled by Hercules motor drivers. </li>
@@ -123,7 +123,7 @@
                 <h3 style="text-align: center;">
                     AUTONOMOUS
                 </h3>
-                <ul style="padding-top: 20px;text-align: justify; font-size: 18px;">
+                <ul style="padding-top: 20px;text-align: justify; font-size: 18px;font-weight:500;">
                     <li>The GPS goal following, obstacle avoidance and ball detection works in synchronization to accomplish the autonomous task. </li>
                     <li>The data from GPS module and Inertial Measurement Unit (IMU) are combined using the Kalman Filter for better localization of the rover in the local ‘Map’ frame. </li>
                     <li>A PID control system is implemented for efficient and smooth traversal of rover to its designated GPS goal location.  </li>
@@ -138,7 +138,7 @@
             <h3 style="text-align: center;">
                 COMMUNICATION
             </h3>
-            <ul style="padding-top: 20px; text-align: justify;font-size: 18px;">
+            <ul style="padding-top: 20px; text-align: justify;font-size: 18px;font-weight:500;">
                 <li>We are using 13 dBi 5 GHz directional antenna (IEEE 802.11a/n) for communication.</li>
                 <li>All other devices like laptop, Raspberry Pi and Jetson nano are connected to Antenna via wifi and create a star topology.
                     Antenna provide a uniqe local IP to all connected devices..</li>
@@ -159,7 +159,7 @@
             <h3 style="text-align: center;">
                 IMAGE PROCESSING
             </h3>
-            <ul style="padding-top: 20px;text-align: justify;font-size: 18px;">
+            <ul style="padding-top: 20px;text-align: justify;font-size: 18px;font-weight:500;">
                 <li>For object detection and image processing OpenCV and TensorFlow library integrated on Python script is used.  </li>
                 <li>Arrow and ball detection are achieved by training a model using Keras as the main program interface.</li>
                 <li>The Rover aligns itself according to the arrow orientation in order to keep the detected class at the centre of the frame and moves till a distance of less than 2 meters from that
@@ -174,7 +174,7 @@
         <h3 style="text-align: center;" id="gui">
             VIDEO STREAMING AND GUI
         </h3>
-        <ul style="padding-top: 20px;text-align: justify;font-size: 18px;">
+        <ul style="padding-top: 20px;text-align: justify;font-size: 18px;font-weight:500;">
             <li>Video streaming is achieved using three Web cameras that are mounted on the Rover. These cam collectively provide a 360° view of the field for effective navigation purpose.</li>
             <li>Video streaming is done over 5Ghz band. </li>
             <li>A Web server is created using the MJPG-4 streamer of Raspberry-Pi for video transmission at base station.</li>
@@ -195,7 +195,7 @@
             <h3 style="text-align: center;">
                 POWER DISTRIBUTION AND CIRCUITS
             </h3>
-            <ul style="padding-top: 20px;text-align: justify;font-size: 18px;">
+            <ul style="padding-top: 20px;text-align: justify;font-size: 18px;font-weight:500;">
                 <li>The Rover is supplied with two - 12V and 16V Lipo battery.  </li>
                 <li>For regulated DC supply, DC-DC buck convertor is used. Apart from that, supply to processor is given by 10,000 and 20,000 mAh power bank.</li>
                 <li>Protection of DC components is ensured from reverse polarity using PMOS and Diode.</li>
@@ -208,7 +208,7 @@
 <div style="text-align: center;font-size: 20px; font-weight: bold;">
             <a href="#top">
                 <button type="button" class="btn btn-info btn-lg" style="font-size: 18px; font-weight: bold; ">BACK TO TOP</button></a>
-                <div class="copyright"style="padding-top: 10px;text-align:center; font-weight:400">
+                <div class="copyright"style="padding-top: 10px;text-align:center; font-weight:500">
                     © Drishti-SVNIT. All Rights Reserved
                 </div>
         </div>

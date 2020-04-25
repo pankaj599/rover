@@ -103,6 +103,14 @@ ul li:hover{
         padding-right: 0px;
         padding-left:0px;
     }
+    .about-content
+    {
+        font-weight:normal;
+    }
+    .present-content
+    {
+        font-weight:normal;
+    }
 }
 @media(max-width:978px)
 {

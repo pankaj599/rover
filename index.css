@@ -1,3 +1,15 @@
+html
+{
+    overflow-x: hidden;
+}
+   
+body
+{
+    overflow-x: hidden;  
+   background-image: url(background1.jpg);
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+}
 .navbar-nav{
     font-family: Arial;
     font-size: 20px;
@@ -35,38 +47,75 @@ ul li:hover{
     padding-left: 20px;
     padding-right: 10px;
     }
-}
-@media (max-width: 600.98px) { 
     .hello1{
-        height: 250px;
+        height: 200px;
     }
-}
-@media (max-width: 600.98px) { 
     .hello2{
-        height: 250px;
+        height: 200px;
     }
-}
-@media (max-width: 600.98px) { 
     .hello3{
-        height: 250px;
+        height: 200px;
+    }
+   
+}
+.about
+{
+    padding-top: 5px;
+}
+ .about-heading
+{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.about-content
+{
+    text-align: justify; 
+    font-size: larger;
+    font-weight:500;
+}
+.present-content
+{
+    text-align: justify; 
+    font-size: larger;
+    font-weight:500;
+}
+.dob .x
+{
+    color:white;
+     padding-top:30px;
+}
+@media(max-width:800px)
+{
+    .dob .x{
+        padding-top:4px;
     }
 }
-@media (max-width: 600.98px) { 
-    .hello4{
-        padding-top: 4px;
-        text-align:center;
+.dob
+{
+    padding-left: 50px;
+     padding-top: 50px;
+    padding-right: 50px;
+}
+@media(max-width:450px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
     }
-    @media (max-width: 600.98px) { 
-        .hello5{
-            padding-top: 4px;
-            text-align:center;
-        }
-        @media (max-width: 600.98px) { 
-            .hello6{
-                padding-top: 4px;
-                text-align:center;
-            }
- @media (max-width: 600.98px) { 
-                .hello7{
-                    text-align:center;
-                }
+}
+@media(max-width:978px)
+{
+    .hello
+    {
+        padding-top: 50px;
+    }
+}
+
+    @media(max-width:978px)
+{
+    .ifr
+    {
+        padding-top: 80px;
+    }
+}

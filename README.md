@@ -1,1 +1,1 @@
-# This is Official Website of Mars Rover Drishti
+# Mars Rover Drishti Website

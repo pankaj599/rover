@@ -65,7 +65,14 @@
     background: #fefefe;
     border-color: #007bb5;
   }
-  
+   .rounded-social-buttons .social-button.insta {
+    background: #9b6954;
+  }
+  .rounded-social-buttons .social-button.insta:hover, .rounded-social-buttons .social-button.insta:focus {
+    color: #9b6954;
+    background: #fefefe;
+    border-color:  #9b6954;
+  }
   .rounded-social-buttons .social-button.youtube {
     background: #bb0000;
   }
